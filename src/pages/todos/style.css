@@ -1,0 +1,38 @@
+.todos-container
+{
+    max-width: 700px;
+    margin: auto;
+}
+#todo-form{
+    display: grid;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.todos-container input{
+    padding: 10px;
+}
+#todo-form button{
+    width: fit-content;
+    padding: 10px;
+    background: #f82727;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+#todo-form button:disabled{
+    color: #fff;
+    background: gray;
+    opacity: 0.6;
+}
+.todos-item-wrapper
+{
+    margin: 10px 0;
+    display: grid;
+    gap: 10px;
+}
+.todo-item
+{
+    display: flex;
+    gap: 10px;
+}

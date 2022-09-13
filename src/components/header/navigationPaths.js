@@ -11,4 +11,12 @@ export const navigations = [
     name: "contact",
     path: "/contact",
   },
+  {
+    name: "recipe app",
+    path: "/recipe",
+  },
+  {
+    name: "Todo app",
+    path: "/todos",
+  },
 ];

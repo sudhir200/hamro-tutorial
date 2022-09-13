@@ -1,0 +1,25 @@
+.header-wrapper
+{
+    background: #b71d1c;
+    color: #fff;
+    padding: 8px 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-wrap
+{
+    display: flex;
+    gap: 10px;
+}
+.links-wrap  a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.links-wrap  a:hover
+{
+    color: orange;
+}

@@ -1,4 +1,6 @@
 .recipe-wrapper,.recipe-detail-wrapper
 {
     padding: 10px;
+    margin: auto;
+    max-width: 600px;
 }

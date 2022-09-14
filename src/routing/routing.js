@@ -18,7 +18,7 @@ function Routing(props) {
           <Route exact path={"/home"} element={<Home />} />
           <Route exact path={"/recipe"} element={<Recipe />} />
           <Route exact path={"/todos"} element={<Todos />} />
-          <Route exact path={"/recipes/:id"} element={<RecipeDetail />} />
+          <Route exact path={"/recipes/:name"} element={<RecipeDetail />} />
         </Routes>
         <Footer />
       </BrowserRouter>

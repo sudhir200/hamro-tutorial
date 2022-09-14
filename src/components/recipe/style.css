@@ -1,0 +1,20 @@
+.categories-wrapper
+{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.recipe-category
+{
+    outline: none;
+    padding: 8px;
+    border-radius: 15px;
+    background: white;
+    color:#b71d1c;
+    border: 1px solid #b71d1c;
+}
+.recipe-category:hover,.selected{
+    cursor: pointer;
+    background: #b71d1c;
+    color: white;
+}

@@ -6,6 +6,7 @@ import Footer from "../components/footer/footer";
 import Home from "../pages/home/home";
 import Recipe from "../pages/recipe/recipe";
 import Todos from "../pages/todos/todos";
+import RecipeDetail from "../pages/recipe/recipeDetail";
 
 function Routing(props) {
   return (
@@ -13,11 +14,11 @@ function Routing(props) {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path={"/about"} element={<About />} />
-          <Route path={"/home"} element={<Home />} />
-          <Route path={"/recipe"} element={<Recipe />} />
-          <Route path={"/todos"} element={<Todos />} />
-          <Route path={"/users/:id"} element={<Home />} />
+          <Route exact path={"/about"} element={<About />} />
+          <Route exact path={"/home"} element={<Home />} />
+          <Route exact path={"/recipe"} element={<Recipe />} />
+          <Route exact path={"/todos"} element={<Todos />} />
+          <Route exact path={"/recipes/:id"} element={<RecipeDetail />} />
         </Routes>
         <Footer />
       </BrowserRouter>

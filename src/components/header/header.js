@@ -9,7 +9,9 @@ function Header(props) {
       <h3>Tutorial</h3>
       <div className={"links-wrap"}>
         {navigations.map((item) => (
-          <Link to={item.path}>{item.name}</Link>
+          <Link key={item.path} to={item.path}>
+            {item.name}
+          </Link>
         ))}
       </div>
     </div>

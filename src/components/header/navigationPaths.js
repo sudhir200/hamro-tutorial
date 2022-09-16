@@ -19,4 +19,8 @@ export const navigations = [
     name: "Todo app",
     path: "/todos",
   },
+  {
+    name: "Learings",
+    path: "/learning",
+  },
 ];

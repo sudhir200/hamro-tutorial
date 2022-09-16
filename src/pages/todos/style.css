@@ -12,7 +12,7 @@
 .todos-container input{
     padding: 10px;
 }
-#todo-form button{
+.todo-btn{
     width: fit-content;
     padding: 10px;
     background: #f82727;

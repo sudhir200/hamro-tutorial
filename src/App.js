@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Routing from "./routing/routing";
 
-function App() {
+function App(props) {
   return (
     <div>
-      <Routing />
+      <Routing text={props.text} />
     </div>
   );
 }

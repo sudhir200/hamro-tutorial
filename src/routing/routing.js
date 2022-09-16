@@ -7,17 +7,19 @@ import Home from "../pages/home/home";
 import Recipe from "../pages/recipe/recipe";
 import Todos from "../pages/todos/todos";
 import RecipeDetail from "../pages/recipe/recipeDetail";
+import Learning from "../components/learning/learning";
 
 function Routing(props) {
   return (
     <div>
       <BrowserRouter>
-        <Header />
+        <Header text={props.text} />
         <Routes>
           <Route exact path={"/about"} element={<About />} />
           <Route exact path={"/home"} element={<Home />} />
           <Route exact path={"/recipe"} element={<Recipe />} />
           <Route exact path={"/todos"} element={<Todos />} />
+          <Route exact path={"/learning"} element={<Learning />} />
           <Route exact path={"/recipes/:name"} element={<RecipeDetail />} />
         </Routes>
         <Footer />
